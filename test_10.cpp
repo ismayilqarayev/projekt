@@ -35,7 +35,7 @@ void fun_1()
 		if (number_4 > d_4)
 		{
 			int a = number_1 += 1;
-			cout << a;
+			cout << a << "\n";
 		}
 	}
 
@@ -47,6 +47,11 @@ void fun_1()
 
 void fun_2()
 {
+	if (int i = 5)
+	{
+		i *= 2;
+		cout << i << "\n";
+	}
 
 }
 
