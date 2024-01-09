@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 int number_1;
 int number_2;
 int number_3;
@@ -30,15 +31,27 @@ void fun_1()
 	{
 		int get = ((number_3 + number_4) * number_1 * number_2);
 		cout << get << "\n";
-		
+
 		if (number_4 > d_4)
 		{
-			cout << 
+			int a = number_1 += 1;
+			cout << a;
 		}
+	}
+
+	else
+	{
+
 	}
 }
 
-int main() 
+void fun_2()
+{
+
+}
+
+int main()
 {
 	fun_1();
+	fun_2();
 }
