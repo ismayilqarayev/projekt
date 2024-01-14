@@ -1,62 +1,38 @@
 #include <iostream>
-
 using namespace std;
 
-
-int number_1;
-int number_2;
-int number_3;
-int number_4;
-int number_5;
-
-int a_1;
-int b_2;
-int c_3;
-int d_4;
-
-void fun_1()
+int main() 
 {
-	number_1 = 12;
-	number_2 = 45;
-	number_3 = 56;
-	number_4 = 67;
-	number_5 = 9;
+	
+	int birinci_eded;
+	cout << "birinci ededi daxil edin: "; 
+	cin >> birinci_eded;
 
-	a_1 = 1;
-	b_2 = 2;
-	c_3 = 3;
-	d_4 = 4;
 
-	if (number_1 < number_2)
+	int a = 0, b = 0, c = 0;
+	cout << "ikinci ededi daxil edin: ";
+	cin >> a, b, c;
+	
+	if (birinci_eded >= a) 
 	{
-		int get = ((number_3 + number_4) * number_1 * number_2);
-		cout << get << "\n";
-
-		if (number_4 > d_4)
-		{
-			int a = number_1 += 1;
-			cout << a << "\n";
-		}
+		int x = 5;
+		x += 2;
+		cout << x << "\n";
 	}
 
-	else
+	else if (birinci_eded != b) 
 	{
+		int y = 5;
+		y *= 2;
+		cout << y << "\n";
+	}
 
+	else if (birinci_eded <= c) 
+	{
+		int z = 5;
+		z /= 2;
+		cout << z << "\n";
 	}
 }
 
-void fun_2()
-{
-	if (int i = 5)
-	{
-		i *= 2;
-		cout << i << "\n";
-	}
 
-}
-
-int main()
-{
-	fun_1();
-	fun_2();
-}
