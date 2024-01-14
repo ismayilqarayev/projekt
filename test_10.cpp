@@ -9,29 +9,20 @@ int main()
 	cin >> birinci_eded;
 
 
-	int a = 0, b = 0, c = 0;
+	int ikinci_eded;
 	cout << "ikinci ededi daxil edin: ";
-	cin >> a, b, c;
+	cin >> ikinci_eded;
 	
-	if (birinci_eded >= a) 
+	if (birinci_eded >= ikinci_eded) 
 	{
-		int x = 5;
-		x += 2;
+		int x = 4 << 2;
 		cout << x << "\n";
 	}
 
-	else if (birinci_eded != b) 
+	else if (birinci_eded <= ikinci_eded) 
 	{
-		int y = 5;
-		y *= 2;
+		int y = 3 << 2;
 		cout << y << "\n";
-	}
-
-	else if (birinci_eded <= c) 
-	{
-		int z = 5;
-		z /= 2;
-		cout << z << "\n";
 	}
 }
 
