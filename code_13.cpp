@@ -3,7 +3,6 @@ using namespace std;
 
 int main()
 {
-    int number;
     int number_1 = 10;
     int number_2 = 10;
 
